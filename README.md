@@ -1,4 +1,3 @@
-StudentResultManagement/README.md
 # Student Result Management System
 
 A web-based Student Result Management System built with ASP.NET Core Razor Pages (.NET 9, C# 13). This application streamlines the management of students, subjects, exams, marks, and results for educational institutions. It provides an intuitive interface for administrators and staff to efficiently handle student records and academic results.
