@@ -22,7 +22,7 @@ A web-based Student Result Management System built with ASP.NET Core Razor Pages
 
 ---
 
-## Features
+## 🚀 Features
 
 - **Student Management:** Add, edit, view, and delete student records.
 - **Subject Management:** Manage subjects offered by the institution.
@@ -34,7 +34,7 @@ A web-based Student Result Management System built with ASP.NET Core Razor Pages
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Framework:** ASP.NET Core Razor Pages (.NET 9)
 - **Language:** C# 13
@@ -57,7 +57,7 @@ A web-based Student Result Management System built with ASP.NET Core Razor Pages
 1. **Clone the repository:**
 2. **Open the solution in Visual Studio 2022.**
 
-### Database Setup
+### 🗄 Database Setup
 
 1. **Configure the connection string:**
 - Edit `appsettings.json` to set your SQL Server connection string under `ConnectionStrings:DefaultConnection`.
@@ -75,7 +75,8 @@ A web-based Student Result Management System built with ASP.NET Core Razor Pages
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+StudentResultManagement/ │ ├── Controllers/                # Handles HTTP requests and business logic │   ├── StudentsController.cs │   ├── SubjectsController.cs │   ├── ExamsController.cs │   ├── MarksController.cs │   └── ResultsController.cs │ ├── Models/                     # Entity models for EF Core │   ├── ApplicationDbContext.cs │   ├── Student.cs │   ├── Subject.cs │   ├── Exam.cs │   └── Mark.cs │ ├── ViewModels/                 # View models for passing data to views │   └── ResultViewModel.cs │ ├── Views/                      # Razor views for UI │   ├── Shared/ │   │   └── _Layout.cshtml │   ├── Students/ │   │   ├── Index.cshtml │   │   └── Create.cshtml │   ├── Subjects/ │   │   └── Index.cshtml │   ├── Results/ │   │   ├── Index.cshtml │   │   ├── ViewResult.cshtml │   │   └── NoResult.cshtml │   └── ... │ ├── Migrations/                 # Entity Framework Core migrations │   └── 20251204165034_InitialCreate.cs │ ├── appsettings.json            # Application configuration ├── Program.cs                  # Application entry point └── README.md                   # Project documentation
 
 ---
 
@@ -103,7 +104,9 @@ A web-based Student Result Management System built with ASP.NET Core Razor Pages
 
 ## Screenshots
 
-> _Add screenshots here to showcase the UI and features._
+<img width="1845" height="894" alt="image" src="https://github.com/user-attachments/assets/64863b48-0d52-4ae9-a79c-9a0b184b2ce1" />
+<img width="1867" height="568" alt="image" src="https://github.com/user-attachments/assets/abb0f11c-bd01-472b-bb32-9fdbf19b91ce" />
+
 
 ---
 
@@ -119,9 +122,8 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+## 👨‍💻 Author
+Shashank Kumar Backend Developer | ASP.NET Core | SQL Server
 
 ---
 
